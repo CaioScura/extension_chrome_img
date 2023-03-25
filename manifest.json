@@ -1,0 +1,11 @@
+{
+    "name": "Mnha Extensão",
+    "description": "Minha primeira extensao para o Google Chrome",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting"], //activeTab = ativar a aba de navegação, scripting = ativar js na aba
+    "action": {
+        "default_popup": "index.html"
+    }
+
+}
